@@ -9,3 +9,6 @@ reveal.js:
 
 serve:
 	python -mSimpleHTTPServer 8001
+
+watch:
+	while true; do make; sleep 1; done
